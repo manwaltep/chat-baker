@@ -65,7 +65,7 @@ const Home: NextPage = () => {
           <Input
             className="flex-1"
             placeholder="Paste any url..."
-            maxLength={100}
+            maxLength={200}
             {...register("url", {
               required: true,
               minLength: 1,
